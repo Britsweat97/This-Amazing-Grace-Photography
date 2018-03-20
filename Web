@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+    <!--THIS IS FOR RESPONSIVE TOP NAVIGATION BAR-->
+<style>
+* {box-sizing: border-box;}
+    border-box{
+        border-color: goldenrod
+    }
+        
+body {
+  margin: 0;
+  font-family: cursive,Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
+   border-style: double;border-color: goldenrod
+}
+
+    .topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20.4px;
+}
+
+.topnav a:hover {
+  background-color:goldenrod;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: goldenrod;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px;  border-color: goldenrod
+  }
+}
+       
+</style>
+</head>
+<body>
+
+    <!--THIS IS FOR THE TOP NAVIGATION BAR TABS-->
+<div class="topnav">
+  <a class="active" href="file:///Users/Britnee/Desktop/ThisAmazingGracePhotographs2.html">Home</a>
+  <a href="file:///Users/Britnee/Desktop/About.html">About</a>
+  <a href="file:///Users/Britnee/Desktop/Contact.html">Contact</a>
+    <a href="file:///Users/Britnee/Desktop/Portraits.html">Portraits</a>
+  <a href="file:///Users/Britnee/Desktop/Events.html">Events</a>
+  <a href="file:///Users/Britnee/Desktop/Travel.html">Travel</a>
+  <a href="file:///Users/Britnee/Desktop/Nature.html">Nature</a>
+  <a href="file:///Users/Britnee/Desktop/Architecture.html">Architecture</a>
+  <a href="file:///Users/Britnee/Desktop/Prices.html">Prices</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+<!--THIS IS THE END FOR THE TABS OF THE TOP NAVIGATION BAR-->
+    
+<div style="padding-left:16px">
+  
+</div>
+
+</body>    
+     
+ <hr>
+<style>
+   
+    hr{
+    border-color:goldenrod
+    }
+</style>
+  
+<div style="padding-left:16px">
+  <h2>This Amazing Grace Photography</h2>
+    <style>
+    h2{
+        font-size: 40px
+        }
+    </style>
+    
+</div>
+    
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>   
+   <!-- DO NOT TOUCH ABOVE-->
+    <!-- END OF TOP NAVIGATION EDITOR-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: cursive;
+}
+
+
+    /* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 55%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<hr>
+
+<h2>My Portfolio</h2>
+<style>
+    h2{
+        text-align: center
+    }
+
+    </style>
+    
+    <!-- MARBLE BACKGROUND-->
+    <Style type='text/css' >body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);background-position:top left;background-repeat:repeat;background-attachment:fixed;}</Style>
+    <!-- MARBLE BACKGROUND-->
+    
+    
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://thisamazinggracephotography.weebly.com/uploads/8/3/9/7/83970798/fullsizeoutput-1680_orig.jpg" alt="Mountains" style="width:100%">
+      <h3>Portraits</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://thisamazinggracephotography.weebly.com/uploads/8/3/9/7/83970798/img-3385_orig.jpg" alt="Lights" style="width:100%">
+      <h3>Maternity Shoot</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://thisamazinggracephotography.weebly.com/uploads/8/3/9/7/83970798/img-1160-copy_orig.jpg" alt="Nature" style="width:100%">
+      <h3>Nature</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="https://thisamazinggracephotography.weebly.com/uploads/8/3/9/7/83970798/fullsizeoutput-1653_1_orig.jpg" alt="Mountains" style="width:100%">
+      <h3>Architecture</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="https://thisamazinggracephotography.weebly.com/uploads/8/3/9/7/83970798/dscf2561-2_orig.jpg" alt="Bear" style="width:100%">
+  <h3>Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
